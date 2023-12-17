@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+}
+.navbar {
+  position: fixed; /* Set navbar position to fixed */
+  top: 0; /* Stick it to the top */
+  width: 100%; /* Make it full-width */
+  background-color: var(--yabba-color-yellow);
+  padding: 16px;
+  color: var(--yabba-color-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: 8px solid var(--yabba-color-white);
+  z-index: 2;
+}
+.icon-cart-navbar {
+  color: var(--yabba-color-black);
+  padding: 16px;
+  border-radius: 120px;
+  font-size: 24px;
+}
+.logo {
+  font-size: 20px;
+}
+
+.navbar-cart-div{
+    display: flex;
+
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-cart-p{
+    margin-left: -24px;
+    font-size: 12px;
+    background-color: var(--yabba-color-white);
+    height: 24px;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2px;
+    border-radius: 48px;
+    margin-top: -0.2px;
+}
+
+.menu-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu-list li {
+  font-size: 14px;
+  margin-right: 12px;
+  width: auto;
+  cursor: pointer;
+  display: block; /* Ensure the list items are visible */
+}
+
+.sell-button {
+  height: 50px;
+  padding: 0 16px;
+  border-radius: 48px;
+  border: none;
+  background-color: var(--yabba-color-white);
+  color: var(--yabba-color-black);
+  cursor: pointer;
+  width: 120px;
+}
+.sell-button-mini {
+  display: none;
+}
+
+.signin-button-mini {
+  display: none;
+}
+
+.sell-button:hover {
+  border-color: var(--yabba-color-black);
+  border: 2px solid var(--yabba-color-black);
+  background-color: #ffcb05;
+  transition: 0.2s;
+  border-radius: 0px;
+}
+
+.signin-button:hover {
+  border-color: var(--yabba-color-black);
+  border: 2px solid var(--yabba-color-black);
+  background-color: #ffcb05;
+  transition: 0.2s;
+  border-radius: 0px;
+  color: var(--yabba-color-black);
+}
+
+.signin-button {
+  margin-left: 8px;
+  width: 120px;
+  height: 50px;
+  padding: 0 16px;
+  border-radius: 48px;
+  border: none;
+  color: var(--yabba-color-white);
+  background-color: var(--yabba-color-black);
+  cursor: pointer;
+}
+.burger-menu {
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.close-icon {
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 1008px) {
+  .menu-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 48px;
+    background-color: var(--yabba-color-yellow);
+  }
+  .sell-button-mini {
+    height: 50px;
+    padding: 0 16px;
+    border-radius: 48px;
+    border: none;
+    background-color: var(--yabba-color-white);
+    color: var(--yabba-color-black);
+    cursor: pointer;
+    width: 320px;
+  }
+
+  .signin-button-mini {
+    height: 50px;
+    padding: 0 16px;
+    border-radius: 48px;
+    border: none;
+    background-color: var(--yabba-color-black);
+    color: var(--yabba-color-white);
+    cursor: pointer;
+    width: 320px;
+  }
+  .menu-list.open {
+    display: flex;
+  }
+
+  .menu-list li {
+    display: block;
+    margin: 10px;
+    margin-right: 0px;
+  }
+
+  .sell-button,
+  .signin-button {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .close-icon {
+    display: block;
+  }
+}

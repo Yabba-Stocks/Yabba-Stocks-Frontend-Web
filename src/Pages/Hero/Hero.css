@@ -1,0 +1,77 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 80%;
+}
+
+.bold-caption {
+  font-weight: bold;
+  margin: 0;
+}
+
+.caption p {
+  margin: 10px 0;
+}
+
+.search-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid var(--yabba-color-yellow);
+  border-radius: 48px;
+  height: 30px;
+  padding-left: 48px;
+  color: #fff;
+  background-color: #4a4a4a; /* when not in focus */
+}
+
+.search-bar input:focus {
+  border-color: #fff; /* when in focus */
+  outline: none;
+}
+
+.search-bar input:blur {
+  border-color: var(--yabba-color-yellow); /* when not in focus */
+}
+
+.search-bar button {
+  background-color: var(--yabba-color-yellow);
+  color: var(--yabba-color-black);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  border-radius: 48px;
+  height: 50px;
+  width: 120px;
+  margin-top: -12px;
+}
