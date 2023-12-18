@@ -1,7 +1,7 @@
 // ProductPage.js
 import React from "react";
 import ProductComponent from "./ProductComponent";
-import "../Product/product.css";
+import "./Product.css";
 import products from "./ProductsData";
 
 const ProductPage = () => {
