@@ -15,7 +15,7 @@ const CollectionGridItem = ({ name, imageUrl, items }) => {
   }, [imageUrl]);
 
   return (
-    <div className="collection-item">
+    <div className="collection-item" >
       <img src={imageUrl} alt={name} />
       <div className="collection-div-relative">
         <h3 className="collection-h3">{name}</h3>

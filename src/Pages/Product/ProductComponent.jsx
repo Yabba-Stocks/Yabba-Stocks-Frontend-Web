@@ -9,6 +9,8 @@ const ProductComponent = ({ id, name, price, imageUrl }) => {
   const [isHovered, setIsHovered] = useState(false);
   const dispatch = useDispatch();
 
+  const firstImageUrl = imageUrl?.length > 0 ? imageUrl[0] : imageUrl;
+
   const handleAddToCart = () => {
     dispatch(addToCart({ id, name, price, imageUrl, quantity: 1 }));
   };
@@ -19,19 +21,18 @@ const ProductComponent = ({ id, name, price, imageUrl }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* <Link to={`/products/${id}`}> */}
-        <div className="image-container-com">
-          <img src={imageUrl} alt={name} />
-          {isHovered && (
-            <div className="add-to-cart-com"  onClick={handleAddToCart}>
-              <p className="add-to-cart-com-p">
-                Add to Cart
-              </p>
-              <MdShoppingCart className="icon-cart-product" />
-            </div>
-          )}
-        </div>
-      {/* </Link> */}
+      <div className="image-container-com">
+        <Link to={`/products/${id}`}>
+          <img src={firstImageUrl} alt={name} />
+        </Link>
+        {isHovered && (
+          <div className="add-to-cart-com" onClick={handleAddToCart}>
+            <p className="add-to-cart-com-p">Add to Cart</p>
+            <MdShoppingCart className="icon-cart-product" />
+          </div>
+        )}
+      </div>
+
       <div className="product-info-com">
         <h3>{name}</h3>
         <p>${price}</p>

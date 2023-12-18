@@ -1,0 +1,54 @@
+/* NewsletterForm.css */
+.newsletter-form-container {
+  width: 100%;
+  padding: 60px 0px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: var(--yabba-color-black);
+  text-align: center;
+  background-color: var(--yabba-color-yellow);
+}
+.news-mid-div {
+  max-width: 340px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-news {
+  border: 1px solid var(--yabba-color-black);
+  background-color: var(--yabba-color-yellow);
+  padding: 16px;
+  color: var(--yabba-color-black);
+  width: 60%;
+}
+
+.label-news {
+  text-align: left;
+  width: 100%;
+}
+
+.div-label-news {
+  text-align: left;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+.submit-news {
+  width: 28%;
+  height: 50px;
+  background-color: var(--yabba-color-black);
+  color: var(--yabba-color-white);
+}
+
+.submit-news:hover {
+    width: 28%;
+    height: 50px;
+    background-color: var(--yabba-color-white);
+    color: var(--yabba-color-black);
+  }
+  

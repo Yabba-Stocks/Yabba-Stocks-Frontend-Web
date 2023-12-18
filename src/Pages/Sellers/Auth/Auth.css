@@ -1,0 +1,105 @@
+/* Auth.css */
+
+.login-first-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.p-auth {
+  font-size: 12px;
+  width: 100%;
+  text-align: right;
+}
+.login-second-div {
+  background-color: var(--yabba-color-black);
+  width: 365px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-third-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-have-auth{
+    font-size: 12px;
+    margin-top: -16px;
+}
+.auth-button-div {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 100%;
+  
+
+}
+.auth-yellow{
+    color: var(--yabba-color-yellow);
+    cursor: pointer;
+}
+.auth-button {
+  width: 100px;
+  height: 42px;
+  background-color: var(--yabba-color-yellow);
+  color:  var(--yabba-color-black);
+}
+.login-input-wrapper-input {
+  width: 100%;
+  padding: 10px;
+  height: 45px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.password-input-container {
+  width: 100%;
+  margin: 8px 0;
+}
+
+.password-input-wrapper {
+  position: relative;
+}
+
+.toggle-password-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  margin: 8px 0;
+  background-color: var(--yabba-color-yellow);
+  color: var(--yabba-color-black);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--font-family);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+button:hover {
+  background-color: var(--yabba-color-white);
+}
+.span-auth {
+  margin-left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-input-wrapper-input:focus {
+  border-color: var(--yabba-color-yellow); /* when in focus */
+  outline: none;
+}
+
+.login-input-wrapper-input:blur {
+  border-color: var(--yabba-color-yellow); /* when not in focus */
+}

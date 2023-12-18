@@ -1,0 +1,64 @@
+/* SubscriptionPage.css */
+
+.subscription-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 180px;
+    margin-bottom: 120px
+  }
+  
+  .subscription-plans {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .plans-span{
+    background-color:var(--yabba-color-yellow); 
+    color: var(--yabba-color-black);
+    height: 50px;
+    margin: 0 6px;
+    padding:4px 16px
+  }
+  .plan {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 34px;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+  }
+  .plan:hover{
+    border: 1px solid var(--yabba-color-yellow);
+    background-color:var(--yabba-color-yellow); 
+    color: var(--yabba-color-black);
+  }
+  .ui-sub{
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .subscription-plans {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    .subscription-page {
+        width: 100%;
+        margin: 48px 0px;
+        padding: 0
+      }
+    .plan {
+      width: auto;
+      margin: 1px  16px;
+      padding: 0
+    }
+  }
+  

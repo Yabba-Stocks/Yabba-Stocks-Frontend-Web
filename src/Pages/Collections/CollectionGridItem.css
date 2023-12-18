@@ -17,6 +17,7 @@
   position: absolute;
   bottom: 0%;
   background-color: #00000085;
+  color: var(--yabba-color-white);
   width: 100%;
   padding: 6px;
 }
@@ -51,6 +52,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  padding-bottom: 120px
 }
 
 .collection-grid {

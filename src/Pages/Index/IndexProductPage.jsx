@@ -12,7 +12,7 @@ const IndexProductPage = () => {
       <ProductPage />
       <CollectionPage />
       {/* <ContactUsForm /> */}
-      <Footer />
+   
     </>
   );
 };

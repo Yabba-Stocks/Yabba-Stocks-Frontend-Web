@@ -1,5 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
+const showToastMessage = () => {
+    toast.success("Success Notification !", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
+  };
 // Local storage functions
 const LOCAL_STORAGE_KEY_ITEMS = "cartItems";
 const LOCAL_STORAGE_KEY_TOTALS = "cartTotals";
@@ -64,16 +71,21 @@ export const cartSlice = createSlice({
       setLocalStorageTotals(state.totals);
     },
     decreaseQuantity: (state, action) => {
-      const itemIndex = state.items.findIndex(
-        (item) => item.id === action.payload
-      );
-      if (state.items[itemIndex].quantity > 1) {
-        state.items[itemIndex].quantity -= 1;
-      }
-      state.totals = calculateTotals(state.items);
-      setLocalStorageItems(state.items);
-      setLocalStorageTotals(state.totals);
-    },
+        const itemIndex = state.items.findIndex(
+          (item) => item.id === action.payload
+        );
+      
+        if (state.items[itemIndex].quantity > 1) {
+          state.items[itemIndex].quantity -= 1;
+        } else {
+          // If the quantity is 1 or less, remove the item from the cart
+          state.items = state.items.filter((item) => item.id !== action.payload);
+        }
+      
+        state.totals = calculateTotals(state.items);
+        setLocalStorageItems(state.items);
+        setLocalStorageTotals(state.totals);
+      },
     clearCart: (state) => {
       state.items = [];
       state.totals = calculateTotals(state.items);

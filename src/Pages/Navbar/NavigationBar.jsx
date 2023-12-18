@@ -5,11 +5,10 @@ import { MdShoppingCart } from "react-icons/md";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
-
 const NavigationBar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const cartItems = useSelector((state) => state.cart);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
@@ -28,6 +27,7 @@ const NavigationBar = () => {
           </div>
           <div className="logo">
             <img
+              onClick={() => navigate("/")}
               src={logo}
               alt="logo"
               width="200px"
@@ -49,7 +49,7 @@ const NavigationBar = () => {
             <li>Freebies</li>
             <li>Fonts</li>
             <li>Plugins</li>
-            <li>
+            <li onClick={() => navigate("/login")}>
               {" "}
               <button className="sell-button-mini">Start Selling</button>
             </li>
@@ -59,7 +59,12 @@ const NavigationBar = () => {
           </ul>
           <div>
             {/* <button className="sell-button">Start Selling</button> */}
-            <button className="signin-button">Start Selling</button>
+            <button
+              onClick={() => navigate("/login")}
+              className="signin-button"
+            >
+              Start Selling
+            </button>
           </div>
           <div className="navbar-cart-div" onClick={() => navigate("/cart")}>
             <MdShoppingCart className="icon-cart-navbar" />

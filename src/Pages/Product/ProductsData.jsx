@@ -15,99 +15,99 @@ import twelve from "../../assets/assets/Loaders/ten.jpg";
 const products = [
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 1,
     name: "Product 1",
-    price: 20.99,
-    imageUrl: one,
+    price: 20.50,
+    imageUrl: [one, seven, nine, four],
   },
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 2,
     name: "Product 2",
-    price: 25.99,
-    imageUrl: two,
+    price: 25.50,
+    imageUrl: [two, five, ten, twelve],
   },
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 3,
     name: "Product 3",
-    price: 18.49,
-    imageUrl: three,
+    price: 18.50,
+    imageUrl: [three, five, ten, twelve],
   },
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 4,
     name: "Product 4",
-    price: 22.99,
-    imageUrl: four,
+    price: 22.50,
+    imageUrl: [four, five, ten, twelve],
   },
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 5,
     name: "Product 5",
-    price: 30.99,
-    imageUrl: five,
+    price: 30.50,
+    imageUrl: [five, two, ten, twelve],
   },
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 6,
     name: "Product 6",
-    price: 15.99,
-    imageUrl: six,
+    price: 15.50,
+    imageUrl: [six, five, ten, twelve],
   },
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 7,
     name: "Product 7",
-    price: 28.99,
-    imageUrl: seven,
+    price: 28.50,
+    imageUrl: [seven, five, ten, twelve],
   },
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 8,
     name: "Product 8",
-    price: 24.99,
-    imageUrl: eight,
+    price: 24.50,
+    imageUrl: [eight, five, ten, twelve],
   },
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 9,
     name: "Product 9",
-    price: 19.99,
-    imageUrl: nine,
+    price: 19.50,
+    imageUrl: [nine, five, ten, twelve],
   },
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 10,
     name: "Product 10",
-    price: 27.99,
-    imageUrl: ten,
+    price: 27.50,
+    imageUrl: [ten, five, ten, twelve],
   },
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 11,
     name: "Product 11",
-    price: 21.99,
-    imageUrl: eleven,
+    price: 21.50,
+    imageUrl: [eleven, five, ten, twelve],
   },
   {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero non ex cursus elementum.",
     id: 12,
     name: "Product 12",
-    price: 16.99,
-    imageUrl: twelve,
+    price: 16.50,
+    imageUrl: [twelve, five, ten, twelve],
   },
 ];
 

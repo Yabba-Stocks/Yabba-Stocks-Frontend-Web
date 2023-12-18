@@ -14,7 +14,7 @@ const ProductPage = () => {
     <div className="product-page">
       <b>
         {" "}
-        <h1 className="bold-text">Product Page</h1>
+        <h1 className="bold-text">Best of Products</h1>
       </b>
       <div className="product-list">
         {products.map((product) => (
